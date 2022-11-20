@@ -1,0 +1,25 @@
+{
+  "shadows_location_base_path": "c:\\data\\_tests\\",
+  "repositories": [
+    {
+      "repo_name": "testSource",
+      "repo_url": "git@github.com:focuzz/github-apps-test-source.git",
+      "repo_pem_file_name": "c:\\projects\\github.com_focuzz_test_01.pem",
+      "repo_pem_file_password": "",
+      "repo_skip_host_key_validation": true
+    },
+    {
+      "repo_name": "testDestination",
+      "repo_url": "git@github.com:focuzz/github-apps-test-dest.git",
+      "repo_pem_file_name": "c:\\projects\\github.com_focuzz_test_01.pem",
+      "repo_pem_file_password": "",
+      "repo_skip_host_key_validation": true
+    }
+  ],
+  "sync_options": [
+    {
+      "source_name": "testSource",
+      "destination_name": "testDestination"
+    }
+  ]
+}
